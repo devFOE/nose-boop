@@ -14,7 +14,7 @@ const Container = styled("div")({
   display: "block",
   width: "100%",
   height: "100%",
-  minHeight: "400px",
+  minHeight: "500px",
 });
 
 const ImageWrapper = styled("div")({

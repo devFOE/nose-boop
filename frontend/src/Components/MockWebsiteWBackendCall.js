@@ -20,7 +20,7 @@ const Container = styled("div")({
   display: "block",
   width: "100%",
   height: "100%",
-  maxHeight: "500px",
+  minHeight: "500px",
 });
 
 const MockWebsite = () => {
