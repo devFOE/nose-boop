@@ -48,7 +48,6 @@ const Image = ({ srcImage, altDescription }) => {
         console.log(xCoord, yCoord);
 
         res.forEach((face) => {
-          // const nose = face.landmarks.getNose()[0];
 
           const nose = face.landmarks.getNose();
 
